@@ -34,11 +34,11 @@
     backdrop-filter: blur(5px);
 }
 
-.logo {
-    font-size: 160%;
-    margin-left: 4%;
-    font-weight: bolder;
-    color: var(--primary-text-color);
+.logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transform: translateY(6px);
 }
 
 .nav-bar ul {
