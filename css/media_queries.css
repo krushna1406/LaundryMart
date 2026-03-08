@@ -1,0 +1,99 @@
+@media (max-width:1044px) {
+    .hero{gap: 8%;}
+    .book-now {height: 16rem;}
+}
+
+@media (max-width:1000px) {
+    .hero{gap: 6%;}
+    .newsletter-form button {width: 220px;}
+}
+
+@media (max-width:958px) {
+    .hero{gap: 2%;}
+    .services-section{
+        flex-direction: column;
+    }
+    .head h2{margin-bottom: 3%;}
+    .head p{font-size: 80%;}
+    .book-services{margin-top: 20px;}
+    .book-now {height: 23rem;}
+    .newsletter-form button {width: 200px;}
+}
+
+@media (max-width:876px) {
+    .hero{gap: 0;}
+    .book-now {height: 22rem;}
+}
+
+@media (max-width:861px) {
+    .hero{flex-direction: column;}
+    .left{
+        padding-right: 40px;
+    }
+    .right{
+        display: flex;
+        justify-content: center;
+    }
+    .right img{
+        width: 90%;
+    }
+    .book-now {height: 22rem;}
+}
+@media (max-width:780px) {
+    .book-now {height: 21rem;}
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+    .features-container{
+        flex-direction: column;
+    }
+    .feature{margin: 10px 0;}
+}
+
+@media (max-width: 720px) {
+    .nav-bar ul li{display: none;}
+    .book-now {height: 20rem;}
+}
+
+@media (max-width:700px) {
+    .book-now {height: 19rem;}
+    .newsletter-container{flex-direction: column;}
+    .newsletter-text {margin-bottom: 10px;}
+    .newsletter-form button {width: 84%;}
+}
+
+@media (max-width: 585px) {
+    .add {
+        width: 100px;
+    }
+    .book-now {height: 18rem;}
+}
+
+@media (max-width:520px) {
+    .head h2{margin-bottom: 2%;}
+    .achievements {flex-direction: column;}
+    .achievements h2{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .add {
+        width: 40px;
+    }
+    .add span{
+        display: none;
+    }
+    .add-icon{
+        font-weight: bold;
+        font-size: 190%;
+    }
+    .remove-icon {
+        font-weight: bold;
+        font-size: 190%;
+    }
+    .book-now {height: 17rem;}
+}
+
+@media (max-width: 420px) {
+    .head p{font-size: 70%;}
+    .book-now{height: 16rem;}
+}
