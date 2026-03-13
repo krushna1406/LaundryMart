@@ -186,9 +186,22 @@ bookBtn.addEventListener("click", (e) => {
 
 function sendEmail() {
 
+    let serviceItems = "";
+
+    cartItems.forEach((item, index) => {
+        serviceItems += `<div>${index+1}. ${item.name} - ₹${item.price.toFixed(2)}</div>`
+    });
+
+    let total = 0;
+    cartItems.forEach(item => {
+        total += item.price;
+    });
+
     let params = {
         username: document.getElementById("name").value,
         email: document.getElementById("email").value,
+        serviceList: serviceItems,
+        totalPrice: total.toFixed(2)
     }
 
     emailjs.send("service_p295imk", "template_o5zeyhg", params).then(function(response) {
