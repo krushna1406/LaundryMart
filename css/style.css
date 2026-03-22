@@ -541,19 +541,3 @@ footer p {
 .social-icons a:hover{
     color: var(--primary-color);
 }
-.cart-row ul{
-    padding: 2% 3%;
-    display: flex;
-    list-style: none;
-    gap: 4px;
-}
-
-.cart-row li{
-    font-size: 70%;
-    font-weight: 600;
-    color: #4b5b62;
-}
-
-.cart-row .one {flex-basis:15%;}
-.cart-row .two {flex-basis:60%;}
-.cart-row .three {flex-basis:25%;}
