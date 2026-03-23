@@ -215,8 +215,6 @@ function sendEmail() {
         cartItems = [];
         updateCart();
         bookBtn.style.backgroundColor = "#a5a7ffd1";
-        inputs
-        const btn = document.querySelector(".add");
 
         services.forEach(service => {
 
